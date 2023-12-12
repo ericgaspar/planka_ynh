@@ -67,7 +67,7 @@ ram.runtime = "50M"
     api.protected = true
 
     [resources.ports]
-
+    socket.default = 1337
     [resources.apt]
     packages = "postgresql, postgresql-contrib"
 
